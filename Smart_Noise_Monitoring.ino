@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID   "TMPL3n16B35yW"
+#define BLYNK_TEMPLATE_ID   "Template ID"
 #define BLYNK_TEMPLATE_NAME "Smart Noise Pollution Monitor"
-#define BLYNK_AUTH_TOKEN    "-RPWax7HMFWMHo4BBMHfVW0-TKaRekZv"
+#define BLYNK_AUTH_TOKEN    "Token"
 
 #define BLYNK_PRINT Serial
 
@@ -8,8 +8,8 @@
 #include <BlynkSimpleEsp32.h>
 
 // Wi-Fi credentials
-char ssid[] = "RedmiN13";
-char pass[] = "rithinishanth";
+char ssid[] = "user_name";
+char pass[] = "wifipass";
 
 // Hardware connections
 const int SOUND_PIN  = 34;
